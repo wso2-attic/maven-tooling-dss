@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.wso2.maven.plugin.dataservice;
+package org.wso2.maven.plugin.datasource;
 
 public class DSSArtifact {
 
