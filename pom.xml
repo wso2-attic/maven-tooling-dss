@@ -20,7 +20,7 @@
     <groupId>org.wso2.maven</groupId>
     <artifactId>maven-tooling-dss</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.1.0-SNAPSHOT</version>
     <name>Maven Tooling DSS Pom</name>
     <url>http://wso2.org</url>
     <modules>
@@ -53,7 +53,7 @@
         <url>https://github.com/wso2/maven-tooling-dss.git</url>
         <developerConnection>scm:git:https://github.com/wso2/maven-tooling-dss.git</developerConnection>
         <connection>scm:git:https://github.com/wso2/maven-tooling-dss.git</connection>
-        <tag>v1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <repositories>
