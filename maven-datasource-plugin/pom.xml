@@ -10,19 +10,18 @@
 	language governing permissions and limitations under the License. -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	
 	<parent>
-		<groupId>org.wso2</groupId>
-		<artifactId>wso2</artifactId>
-		<version>1</version>
+		<groupId>org.wso2.maven</groupId>
+		<artifactId>maven-tooling-dss</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>..</relativePath>
 	</parent>
+	
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.wso2.maven</groupId>
 	<artifactId>maven-datasource-plugin</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
-
 	<name>Maven Datasource Plugin</name>
-
 	<description>Maven plugin which creates and builds Data Source artifacts</description>
 	<build>
 		<extensions>
@@ -247,16 +246,4 @@
 		<org.wso2.maven.registry.version>2.1.0</org.wso2.maven.registry.version>
 	</properties>
 
-	<repositories>
-		<repository>
-			<id>wso2-nexus</id>
-			<name>WSO2 internal Repository</name>
-			<url>http://maven.wso2.org/nexus/content/groups/wso2-public/</url>
-			<releases>
-				<enabled>true</enabled>
-				<updatePolicy>daily</updatePolicy>
-				<checksumPolicy>ignore</checksumPolicy>
-			</releases>
-		</repository>
-	</repositories>
 </project>
